@@ -12,10 +12,10 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Work'
-      url: '/projects/'
-    - url: '/about/'
-      title: 'About'
+    #- title: 'Work'
+    #  url: '/projects/'
+    #- url: '/about/'
+    #  title: 'About'
     - url: '/contact/'
       title: 'Contact'
 
@@ -100,30 +100,17 @@ blog__settings:
   blog__description:
 
 
-#-------------------------------
-# Gallery Footer Settings
-gallery:
-  gallery__images:
-    - alt: 'Rest'
-      url: '/images/gallery-1.jpg'
-    - alt: 'Lifestyle'
-      url: '/images/gallery-2.jpg'
-    - alt: 'Hobby'
-      url: '/images/gallery-3.jpg'
-    - alt: 'Notes'
-      url: '/images/gallery-4.jpg'
-
 
 #-------------------------------
 # Footer Navigation Settings
 footer_menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
-    - title: 'Projects'
-      url: '/projects/'
-    - url: '/about/'
-      title: 'About'
+    #- title: 'Home'
+    #  url: '/'
+    #- title: 'Projects'
+    #  url: '/projects/'
+    #- url: '/about/'
+    #  title: 'About'
     - url: '/contact/'
       title: 'Contact'
 
