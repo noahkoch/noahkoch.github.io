@@ -51,7 +51,11 @@
       document.documentElement.classList.add('dark-mode');
     }
     {% endif %}
-  </script>
+
+    function onSubmitContactForm(token) {
+      document.getElementById("contact-form").submit();
+    }
+   </script>
 
   <style>
   {% capture include_to_scssify %}
