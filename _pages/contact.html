@@ -11,14 +11,16 @@ image: '/images/16.jpg'
       <p class="contact-description">{{site.data.settings.contact.description}}</p>
     {% endif %}
   </div>
-  <form class="form" action="{% if site.data.settings.contact.email %}https://formspree.io/f/{{site.data.settings.contact.email}}{% else %}#{% endif %}" method="POST">
+  <form class="form" action="https://formcarry.com/s/XjhhT6mwDQi" method="POST">
+    <div class="g-recaptcha" data-sitekey="6Lc6OP0fAAAAAPHVjTFI4ckoKFmS4NxedKyWf0h4"></div>
+    <input type="hidden" name="_gotcha">
     <div class="form__group">
       <label class="form__label screen-reader-text" for="form-name">Your Name</label>
       <input class="form__input" id="form-name" type="text" name="name" placeholder="Name" required>
     </div>
     <div class="form__group">
       <label class="form__label screen-reader-text" for="form-email">Your Email</label>
-      <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Email" required>
+      <input class="form__input" id="form-email" type="email" name="email" placeholder="Email" required>
     </div>
     <div class="form__group">
       <label class="form__label screen-reader-text" for="form-text">Your Message</label>

@@ -12,19 +12,12 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
+    - title: 'Work'
       url: '/projects/'
-    - title: 'Blog'
-      url: '/blog/'
-    - title: 'Pages'
-      submenu:
-      - url: '/about/'
-        title: 'About'
-      - url: '/contact/'
-        title: 'Contact'
-      - url: '/elements/'
-        title: 'Elements'
-
+    - url: '/about/'
+      title: 'About'
+    - url: '/contact/'
+      title: 'Contact'
 
 #-------------------------------
 # Author Settings
@@ -36,7 +29,8 @@ author:
 social:
 - {icon: "ion-logo-twitter", link: "https://twitter.com/noahkoch"}
 - {icon: "ion-logo-github", link: "https://github.com/noahkoch"}
-- {icon: "ion-logo-medium", link: "https://nowuh.medium.com"}
+- {icon: "ion-logo-linkedin", link: "https://linkedin.com/in/noahkoch"}
+- {icon: "ion-logo-rss", link: "https://nowuh.medium.com"}
 
 #-------------------------------
 # Hero Settings
@@ -101,6 +95,7 @@ testimonial__items:
 #-------------------------------
 # Blog Section
 blog__settings:
+  blog__enabled: false
   blog__title: Recent Posts
   blog__description:
 
@@ -127,14 +122,10 @@ footer_menu__settings:
       url: '/'
     - title: 'Projects'
       url: '/projects/'
-    - title: 'Blog'
-      url: '/blog/'
     - url: '/about/'
       title: 'About'
     - url: '/contact/'
       title: 'Contact'
-    - url: '/elements/'
-      title: 'Elements'
 
 
 #-------------------------------

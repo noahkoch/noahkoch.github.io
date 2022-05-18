@@ -11,6 +11,7 @@
 
   <link rel="canonical" href="http://localhost:4000/contact/">
   <link rel="alternate" type="application/rss+xml" title="Noah Kochanowicz" href="/feed.xml">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -22,6 +23,8 @@
     
   
   
+    
+    
     
       Your Name
       
@@ -38,6 +41,7 @@
       Send Message
     
   
+
 ">
   <meta name="twitter:image:src" content="http://localhost:4000/images/16.jpg">
 
@@ -51,6 +55,8 @@
   
   
     
+    
+    
       Your Name
       
     
@@ -66,6 +72,7 @@
       Send Message
     
   
+
 ">
   <meta property="og:image" content="http://localhost:4000/images/16.jpg">
 
@@ -98,6 +105,7 @@
 
   </style>
 </head>
+
 
 <body>
 
@@ -134,28 +142,19 @@
               
                 
                 <li class="nav__item">
-                  <a href="/projects/" class="nav__link">Projects</a>
+                  <a href="/projects/" class="nav__link">Work</a>
                 </li>
                 
               
                 
                 <li class="nav__item">
-                  <a href="/blog/" class="nav__link">Blog</a>
+                  <a href="/about/" class="nav__link">About</a>
                 </li>
                 
               
                 
-                <li class="nav__item dropdown">
-                  <span class="nav__link dropdown-toggle">Pages <i class="ion ion-ios-arrow-down arrow-down"></i></span>
-                  <div class="dropdown-menu">
-                    
-                      <a href="/about/" class="nav__link">About</a>
-                    
-                      <a href="/contact/" class="nav__link active-link">Contact</a>
-                    
-                      <a href="/elements/" class="nav__link">Elements</a>
-                    
-                  </div>
+                <li class="nav__item">
+                  <a href="/contact/" class="nav__link active-link">Contact</a>
                 </li>
                 
               
@@ -213,14 +212,16 @@
       <p class="contact-description">Drop me a line! Give me a small blurb about your project and I'll get back to you in a jiffy. We'll chat to make sure my skills are a good match for what you're looking for.</p>
     
   </div>
-  <form class="form" action="https://formspree.io/f/mgedndqg" method="POST">
+  <form class="form" action="https://formcarry.com/s/XjhhT6mwDQi" method="POST">
+    <div class="g-recaptcha" data-sitekey="6Lc6OP0fAAAAAPHVjTFI4ckoKFmS4NxedKyWf0h4"></div>
+    <input type="hidden" name="_gotcha">
     <div class="form__group">
       <label class="form__label screen-reader-text" for="form-name">Your Name</label>
       <input class="form__input" id="form-name" type="text" name="name" placeholder="Name" required>
     </div>
     <div class="form__group">
       <label class="form__label screen-reader-text" for="form-email">Your Email</label>
-      <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Email" required>
+      <input class="form__input" id="form-email" type="email" name="email" placeholder="Email" required>
     </div>
     <div class="form__group">
       <label class="form__label screen-reader-text" for="form-text">Your Message</label>
@@ -231,6 +232,7 @@
     </div>
   </form>
 </div>
+
     </div>
   </article>
 </div>
@@ -296,8 +298,13 @@
                         </li>
                         
                         <li class="social__item">
+                          <a class="social__link" href="https://linkedin.com/in/noahkoch" target="_blank" rel="noopener"
+                            aria-label="Social link"><i class="ion ion-logo-linkedin"></i></a>
+                        </li>
+                        
+                        <li class="social__item">
                           <a class="social__link" href="https://nowuh.medium.com" target="_blank" rel="noopener"
-                            aria-label="Social link"><i class="ion ion-logo-medium"></i></a>
+                            aria-label="Social link"><i class="ion ion-logo-rss"></i></a>
                         </li>
                         
                       </ul>
@@ -321,19 +328,11 @@
                     </li>
                     
                     <li class="footer__nav-item">
-                      <a href="/blog/" class="footer__nav-link">Blog</a>
-                    </li>
-                    
-                    <li class="footer__nav-item">
                       <a href="/about/" class="footer__nav-link">About</a>
                     </li>
                     
                     <li class="footer__nav-item">
                       <a href="/contact/" class="footer__nav-link">Contact</a>
-                    </li>
-                    
-                    <li class="footer__nav-item">
-                      <a href="/elements/" class="footer__nav-link">Elements</a>
                     </li>
                     
                   </ul>
